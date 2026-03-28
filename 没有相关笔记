@@ -1,0 +1,15 @@
+【Transformer与大模型核心概念】
+
+笔记整理：
+
+- 注意力机制本质是QKV（Query-Key-Value）计算，是Transformer架构的核心。
+- BERT是双向Transformer，采用Masked Language Model（MLM）预训练，即“完形填空”任务。
+- GPT是单向Transformer，仅使用自回归语言建模。
+- 当前大模型主流训练方法为RLHF（人类反馈强化学习），用于对齐人类偏好。
+- 大模型参数量巨大，训练成本高昂。
+- LoRA（Low-Rank Adaptation）是一种高效的微调方法，仅更新少量参数，避免全量训练。
+- 提示工程（Prompt Engineering）如Chain of Thought（CoT），引导模型分步推理，提升输出质量。
+
+——— 原文内容 ———
+
+我在看Transformer架构。注意力机制，其实就是QKV。还有BERT，它是双向的，GPT是单向的。BERT用的是Masked Language Model。对了，MLM，就是完形填空。还有，现在大模型都用RLHF，人类反馈强化学习，让模型更符合人类偏好。我觉得这些模型参数量都好大，训练起来很贵。LoRA这种方法可以微调，不用全量参数更新。还有提示工程，比如Chain of Thought，让模型一步步思考。
