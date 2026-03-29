@@ -1,0 +1,16 @@
+{
+    "202411039215/会议要点.md": [
+        "Transformer架构",
+        "注意力机制",
+        "BERT",
+        "GPT",
+        "Masked Language Model",
+        "MLM",
+        "RLHF",
+        "人类反馈强化学习",
+        "大模型参数量",
+        "LoRA",
+        "提示工程",
+        "Chain of Thought"
+    ]
+}
